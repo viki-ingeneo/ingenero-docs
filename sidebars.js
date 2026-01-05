@@ -92,5 +92,15 @@ module.exports = {
         }
       ],
     },
+    {
+      type: 'category',
+      label: 'API',
+      link: {
+        type: 'doc',
+        id: 'api', // same page when clicking the category
+      },
+      items: [
+      ]
+    }
   ],
 };
