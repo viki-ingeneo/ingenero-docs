@@ -2,6 +2,7 @@
 title: Markdown (.md) and MDX (.mdx) Files
 sidebar_position: 2
 description: Understand the difference between .md and .mdx files in Docusaurus and how to use them effectively.
+hide_edit_button: true
 ---
 
 # Markdown (.md) and MDX (.mdx) Files
