@@ -1,7 +1,59 @@
 import IosBrowserFrame from '@site/src/components/IOSBrowserFrame';
 
+## Some Build in components of Docusaurus
+
 <IosBrowserFrame url="https://docs.ingenero.com">
     ```
         console.log("Hello Custom Code Block")
     ```
 </IosBrowserFrame>
+
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+<Tabs groupId="platform">
+  <TabItem value="react" label="React">
+    This is **React** tab content.
+  </TabItem>
+
+  <TabItem value="angular" label="Angular">
+    This is **Angular** tab content.
+  </TabItem>
+
+  <TabItem value="vue" label="Vue">
+    This is **Vue** tab content.
+  </TabItem>
+</Tabs>
+
+:::note
+This is a note message.
+:::
+
+:::tip
+This is a helpful tip.
+:::
+
+:::info
+This is informational content.
+:::
+
+:::warning
+Be careful with this action.
+:::
+
+:::danger
+This action can cause serious issues.
+:::
+
+
+<span className="badge badge--primary">New</span>
+<span className="badge badge--success">Stable</span>
+<span className="badge badge--warning">Beta</span>
+
+
+<a
+  className="button button--primary"
+  href="/docs/intro"
+>
+  Get Started
+</a>

@@ -17,8 +17,12 @@ This is **bold** text.
 ```
 ➡️ Renders as:
 
-# Hello World
-This is **bold** text.
+import IosBrowserFrame from '@site/src/components/IOSBrowserFrame';
+
+<IosBrowserFrame url="https://docs.ingenero.com">
+  # Hello World
+  This is **bold** text.
+</IosBrowserFrame>
 
 ---
 
