@@ -65,7 +65,7 @@ npx docusaurus swizzle @docusaurus/theme-classic EditThisPage
 
 ```
 
-Note:- This command will produced below code for customization.
+> Note:- This command will produced below similar code for customization.
 
 <CodeEditorUI fileName="EditThisPage.js" withLineCount>
 {`
