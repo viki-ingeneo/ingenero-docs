@@ -6,6 +6,7 @@ import HomepageFeatures from '@site/src/components/HomepageFeatures';
 
 import Heading from '@theme/Heading';
 import styles from './index.module.css';
+import { useEffect } from 'react';
 
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
@@ -30,6 +31,11 @@ function HomepageHeader() {
 
 export default function Home() {
   const {siteConfig} = useDocusaurusContext();
+
+  useEffect(() => {
+    localStorage.setItem("authToken", "sample-token");
+  }, []);
+
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`}

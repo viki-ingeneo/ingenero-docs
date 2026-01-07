@@ -4,9 +4,12 @@ import {ThemeClassNames} from '@docusaurus/theme-common';
 import Link from '@docusaurus/Link';
 import { useDoc } from '@docusaurus/plugin-content-docs/client';
 import IconEdit from '@theme/Icon/Edit';
+import { useAuth } from '../../hooks/useAuth';
 export default function EditThisPage({editUrl}) {
   const { frontMatter } = useDoc();
-  if (frontMatter.hide_edit_button) {
+  const { isAuthenticated } = useAuth();
+  
+  if (frontMatter.hide_edit_button || !isAuthenticated) {
     return null;
   }
   return (
