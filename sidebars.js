@@ -89,6 +89,11 @@ module.exports = {
           type: 'doc',
           id: "docusaurus/versions",
           label: "Versioning Document",
+        },
+        {
+          type: 'doc',
+          id: "docusaurus/edit-page-link",
+          label: "Edit Page Link Document",
         }
       ],
     },

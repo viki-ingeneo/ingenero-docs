@@ -4,12 +4,12 @@ This document explains the **core rules and features of Markdown used in Docusau
 
 ---
 
-## Front Matter
+## Fornt Matter
 
-Front Matter is a **YAML block at the top of a Markdown file** used to define page metadata such as title, sidebar label, routing, and ordering.
+Fornt Matter is a **YAML block at the top of a Markdown file** used to define page metadata such as title, sidebar label, routing, and ordering.
 
 **Why to use:**  
-Front Matter controls how a document appears, is ordered, and is navigated inside Docusaurus without touching configuration files.
+Fornt Matter controls how a document appears, is ordered, and is navigated inside Docusaurus without touching configuration files.
 
 ### Common use cases
 - Set page title and description

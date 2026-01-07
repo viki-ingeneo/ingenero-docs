@@ -1,0 +1,99 @@
+.vscode-editor.light {
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 16px 0;
+  font-family: Consolas, Monaco, "Courier New", monospace;
+}
+
+.vscode-editor.light .vscode-header {
+  background: #f3f3f3;
+  padding: 8px 12px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+/* .vscode-editor.light .vscode-file {
+  color: #333333;
+  font-size: 13px;
+} */
+
+.vscode-editor.light .vscode-body {
+  padding: 8px 0;
+}
+
+.vscode-editor.light .vscode-line {
+  display: flex;
+  line-height: 22px;
+}
+
+.vscode-editor.light .line-number {
+  width: 40px;
+  padding-right: 10px;
+  text-align: right;
+  color: #999999;
+  user-select: none;
+  font-size: 13px;
+}
+
+.vscode-editor.light .line-content {
+  color: #1e1e1e;
+  white-space: pre;
+  font-size: 13px;
+}
+
+
+/* Header background */
+.vscode-editor.light .vscode-header {
+  background: #f3f3f3;
+  padding: 6px 8px 0;
+  border-bottom: 1px solid #e0e0e0;
+  display: flex;
+}
+
+/* File tab */
+.vscode-editor.light .vscode-tab {
+  background: #ececec;
+  border: 1px solid #d0d0d0;
+  border-bottom: none;
+  padding: 6px 14px;
+  font-size: 13px;
+  color: #333;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+}
+
+/* Active tab (VS Code style) */
+.vscode-editor.light .vscode-tab.active {
+  background: #ffffff;
+  font-weight: 500;
+  position: relative;
+  top: 1px;
+}
+
+.copy-code-icon {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  opacity: 0.6;
+  transition: all 0.2s ease;
+  color: #ccc;
+}
+
+.copy-code-icon:hover {
+  opacity: 1;
+  transform: scale(1.1);
+  color: #4fc3f7;
+}
+
+.vscode-body {
+  position: relative;
+}
+
+.copy-code-icon:active {
+  transform: scale(0.95);
+}
