@@ -243,10 +243,11 @@ Use multiple `>` symbols:
 >>> Level 3
 ```
 
+<IosBrowserFrame url="https://docs.ingenero.com">
 > Level 1
 >> Level 2
 >>> Level 3
-
+</IosBrowserFrame>
 ---
 
 ## Tables
@@ -259,10 +260,13 @@ Use multiple `>` symbols:
 ```
 
 Renders as:
+
+<IosBrowserFrame url="https://docs.ingenero.com">
 | Name | Role | Experience |
 |-----|------|------------|
 | Viki | Dev | 6 Years |
 | Ram  | QA  | 3 Years |
+</IosBrowserFrame>
 
 ---
 

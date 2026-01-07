@@ -17,14 +17,17 @@ Fornt Matter controls how a document appears, is ordered, and is navigated insid
 - Customize URL paths
 - Enable or disable Table of Contents
 
+import CodeEditorUI from '@site/src/components/CodeEditorUI';
+
 ### Example
-```md
----
+<CodeEditorUI fileName="markdown.md" withLineCount withCopyButton>
+{`---
 title: Installation
 sidebar_position: 2
 description: Steps to install the application
 ---
-```
+`}
+</CodeEditorUI>
 
 ## Section Rule
 
