@@ -99,7 +99,7 @@ module.exports = {
     },
     {
       type: 'category',
-      label: 'API',
+      label: 'Some Examples Usage',
       link: {
         type: 'doc',
         id: 'api', // same page when clicking the category

@@ -1,3 +1,7 @@
+---
+hide_edit_button: true
+---
+
 # Edit Page Link (Docusaurus)
 
 import EditThisPage from '@site/src/theme/EditThisPage';

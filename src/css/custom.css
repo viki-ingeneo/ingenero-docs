@@ -36,3 +36,27 @@
 }
 
 /* CodeBlock End */
+
+/* Hide MathML output (KaTeX accessibility layer) */
+/* .katex-mathml {
+  display: none !important;
+} */
+
+.katex-html {
+  display: none !important;
+}
+
+.katex-mathml {
+  position: static;
+  width: auto;
+  height: auto;
+  overflow: visible;
+  clip: auto;
+}
+
+.katex-mathml math {
+  font-size: 1.6rem;
+  display: block;
+}
+
+/* End Hide MathML output (KaTeX accessibility layer) */
